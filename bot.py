@@ -23,7 +23,7 @@ LIST = {}
 async def start(client, message):
  await message.reply_text(text =f"""Hello {message.from_user.first_name }image to pdf bot 
 i can convert image to pdf
-This bot created by @TeamSDBOTs""",reply_to_message_id = message.message_id ,  reply_markup=InlineKeyboardMarkup(
+This bot created by @SLBotsOfficial""",reply_to_message_id = message.message_id ,  reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton("Updates Channel" ,url="https://t.me/SLBotsOfficial") ],
